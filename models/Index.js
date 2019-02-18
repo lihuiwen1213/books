@@ -21,7 +21,7 @@ class Index{
      * getData(options)
      */
     getData(){
-        const safeRequest = new SafeRequest("books/index");
+        const safeRequest = new SafeRequest("country/indexjson");
         return safeRequest.fetch({});
     }
     /**
@@ -32,7 +32,7 @@ class Index{
      * saveData(options)
      */
     saveData(options){
-        const safeRequest = new SafeRequest("books/create");
+        const safeRequest = new SafeRequest("country/add");
         return safeRequest.fetch({
             method:"POST",
             params:options.params
