@@ -16,7 +16,7 @@
       views/              view页面
 
 
-###流程
+### 流程
 1. app.js
 2. controller
 3. render页面，views，用的是swig
