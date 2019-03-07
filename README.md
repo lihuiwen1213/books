@@ -24,3 +24,17 @@
 5. assets静态文件中的js，通过type="module"来判断浏览器是否支持es6
 6. es6编译通过.babelrc文件来定义，通过babel命令来编译es6文件为es5
 7. 在yd.js里面做了节流（throttle方法）
+
+###配置打包工具
+1. gulpfile
+2. 配置完需要给权限
+3. 排除config文件执行babel
+4. rollup-plugin-replace替换环境变量出现if(true)/if(false)
+5. 使用gulp-rollup清楚无用代码
+6. gulp-eslint配置
+7. 配置eslint https://eslint.org/
+
+#### webpack打包web端代码（11727）
+8. 在src/web文件夹下放入components和view
+9. 创建config 开发环境和生产环境
+10. 
