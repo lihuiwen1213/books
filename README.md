@@ -16,7 +16,7 @@
       views/              view页面
 
 
-###流程
+### 流程
 1. app.js
 2. controller
 3. render页面，views，用的是swig
@@ -25,7 +25,7 @@
 6. es6编译通过.babelrc文件来定义，通过babel命令来编译es6文件为es5
 7. 在yd.js里面做了节流（throttle方法）
 
-###配置打包工具
+### 配置打包工具
 1. gulpfile
 2. 配置完需要给权限
 3. 排除config文件执行babel
