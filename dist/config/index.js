@@ -1,17 +1,16 @@
 'use strict';
 
-function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
-
-var path = require('path');
-var _ = _interopDefault(require('lodash-es'));
-
-// const {
+const {
+    join
+} = require("path");
+const _ = require("lodash");
+// import {
 //     join
-// } = require("path");
-// const _ = require("lodash");
+// } from 'path';
+// import _ from 'lodash-es';
 let config = {
-    "viewDir": path.join(__dirname, "..", "views"),
-    "staticDir": path.join(__dirname, "..", "assets"),
+    "viewDir": join(__dirname, "..", "views"),
+    "staticDir": join(__dirname, "..", "assets"),
 };
 {
     const prodConfig = {

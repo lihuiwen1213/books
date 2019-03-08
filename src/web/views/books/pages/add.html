@@ -1,14 +1,19 @@
-{% extends './layout.html' %}
+{% extends 'pages:common/layout.html' %}
 
 {% block title %}🍊新增新闻{% endblock %}
 
 {% block head %}
 <link rel="stylesheet" href="/styles/common.css">
+ <!--injectcss-->
+{% endblock %}
+
+{% block navigation %}
+    {% include "components:navigation/navigation.html" %} 
 {% endblock %}
 
 {% block content %}
 <div id="app"></div>
-{% include "../components/news/add.html" %}
+{% include "components:add/add.html" %}
 {% endblock %}
 
 {% block scripts %}
@@ -28,5 +33,5 @@
         });
     </script>
 
-    
+    <!--injectjs-->
 {% endblock %}

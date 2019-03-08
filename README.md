@@ -26,6 +26,7 @@
 7. 在yd.js里面做了节流（throttle方法）
 
 ### 配置打包工具
+#### gulp打包node端代码
 1. gulpfile
 2. 配置完需要给权限
 3. 排除config文件执行babel
@@ -37,4 +38,10 @@
 #### webpack打包web端代码（11727）
 8. 在src/web文件夹下放入components和view
 9. 创建config 开发环境和生产环境
-10. 
+10. webpack.config.js主要是做entry
+11. 写prod的webpack文件
+12. 写webpack plugin
+13. 
+
+
+dom diff 不快

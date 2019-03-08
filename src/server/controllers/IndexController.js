@@ -10,14 +10,14 @@ class IndexController {
             const index = new Index();
             const result = await index.getData();
             //SSR
-            ctx.body = await ctx.render("index", {
+            ctx.body = await ctx.render("books/pages/list", {
                 data: result.data
             });
         };
     }
     actionAdd() {
         return async (ctx, next) => {
-            ctx.body = await ctx.render("add");
+            ctx.body = await ctx.render("books/pages/add");
         };
     }
     actionSave() {
