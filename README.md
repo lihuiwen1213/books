@@ -41,7 +41,7 @@
 10. webpack.config.js主要是做entry
 11. 写prod的webpack文件
 12. 写webpack plugin
-13. 
 
 
 dom diff 不快
+常规方案下，vue是前端渲染，pjax是后端渲染。
