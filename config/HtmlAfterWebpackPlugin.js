@@ -3,6 +3,7 @@
 const pluginName = 'HtmlAfterWebpackPlugin';
 const assetHelp = (data) => {
     let js = [];
+    let css = [];
     const dir = {
         js: item => `<script src="${item}"></script>`,
         css: item => `<link rel="stylesheet" href="${item}">`
@@ -11,7 +12,7 @@ const assetHelp = (data) => {
         js.push(dir.js(jsitem))
     }
     for(let cssitem of data.css){
-        js.push(dir.css(cssitem))
+        css.push(dir.css(cssitem))
     }
     return {
         js,

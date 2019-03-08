@@ -7,6 +7,7 @@ const files = glob.sync('./src/web/views/**/*.entry.js');
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const { join } = require('path')
 const HtmlAfterWebpackPlugin = require('./config/HtmlAfterWebpackPlugin')
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 // console.log("🍎",files)
 // 15:09
 // [ './src/web/views/books/books-add.entry.js',
@@ -35,13 +36,31 @@ for (let item of files) {
 // console.log(_plugins)
 let webpackconfig = {
     entry: _entry,
+    // module: {        // ----------用这段代码会打到bundle.js里面,用下面的会单独打一个css文件-----------
+    //     rules: [
+    //         {
+    //             test: /\.css$/,
+    //             use: ['style-loader', 'css-loader'],
+    //         },
+    //     ],
+    // },
     module: {
         rules: [
             {
                 test: /\.css$/,
-                use: ['style-loader', 'css-loader'],
-            },
-        ],
+                use: [
+                    {
+                        loader: MiniCssExtractPlugin.loader,
+                        options: {
+                            // you can specify a publicPath here
+                            // by default it use publicPath in webpackOptions.output
+                            publicPath: '../'
+                        }
+                    },
+                    "css-loader"
+                ]
+            }
+        ]
     },
     output: {
         path: join(__dirname, "./dist/assets"),
@@ -49,6 +68,10 @@ let webpackconfig = {
         filename: "scripts/[name].bundle.js"
     },
     plugins: [
+        new MiniCssExtractPlugin({
+            filename: "styles/[name].css",
+            chunkFilename: "styles/[id].css"
+        }),
         ..._plugins,
         new HtmlAfterWebpackPlugin()
     ]
