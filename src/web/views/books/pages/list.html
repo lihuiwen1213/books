@@ -3,7 +3,6 @@
 {% block title %}一灯新闻系统{% endblock %}
 
 {% block head %}
-    <link rel="stylesheet" href="/styles/index.css">
     <!--injectcss-->
 {% endblock %}
 
@@ -13,11 +12,10 @@
 
 {% block content %}
     <div id="app"></div>
-    {% include "components:news/list.html" %} 
+    {% include "components:list/list.html" %} 
 {% endblock %}
 
 {% block scripts %}
-    <script src="/scripts/index.js"></script>
     <!--injectjs-->
 {% endblock %}
 

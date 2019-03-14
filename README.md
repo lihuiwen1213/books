@@ -42,7 +42,48 @@
 11. 写prod的webpack文件
 12. 写webpack plugin
 
+#### 落地SSR切页SPA
+1. 利用pjax(https://github.com/defunkt/jquery-pjax)
+2. 还需要页面对应的css、js(用low的方法是，服务器渲染页面，然后在页面中提取)
+3. IntersectionObserver监听
+4. quicklink提高页面性能
 
-dom diff 不快
+##### 性能优化
+- 应该是可见可操作 渲染全部是a标签
+- SSR直出 前端路由 -》 数据 -》 CSR
+- SSR（SEO、FCP）
 
-常规方案下，vue是前端渲染，pjax是后端渲染。
+#### 前端架构
+1. DI
+2. IOC控制反转
+ AOP constructor(indexService){
+       this.indexService = indexService
+ }
+3. IOC容器概念
+4. container.loadModules加载进来（第一种方式，直接在app.js里面实现）
+5. new 单例（第二种方式，在service里面直接实现）
+6. service注册在app.js
+      使用：constructor({indexService}) {
+        this.indexService = indexService
+    }
+7. controller容器记得路径要对
+
+
+#### 其它
+- dom diff 不快
+- 常规方案下，vue是前端渲染，pjax是后端渲染。
+- 看一下 gulp 和 webpack 是否在监听中
+- 改造gulpfile，兼容修饰器
+
+#### Node
+- Node
+      - BFF（前后端分离）
+      - 部署（Doker+运维）
+      - 监控（Node+前端）
+            - 性能
+            - 错误
+- 前端
+      - 工程化
+      - CI 持续集成 Jenkins……
+      - 框架选型（扩展）
+- SSR CSR SSR+CSR A+B微前端

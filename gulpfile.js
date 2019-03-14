@@ -18,7 +18,10 @@ function builddev(){
             babelrc: false,    // 让里面的配置文件生效
             ignore: ['./src/server/config/*.js'],
             "plugins": [
-                ["transform-es2015-modules-commonjs"]
+                ["@babel/plugin-proposal-decorators",{
+                    "legacy": true
+                }],
+                "transform-es2015-modules-commonjs"
             ]
         }))
         .pipe(gulp.dest('dist'))
@@ -32,7 +35,12 @@ function buildprod(){
         babelrc: false,    // 让里面的配置文件生效
         ignore: ['./src/server/config/*.js'],
         "plugins": [
-            ["transform-es2015-modules-commonjs"]
+            [
+                ["@babel/plugin-proposal-decorators",{
+                    "legacy": true
+                }],
+                "transform-es2015-modules-commonjs"
+            ],
         ]
     }))
     .pipe(gulp.dest('dist'))

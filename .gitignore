@@ -2,3 +2,4 @@
 .sonarlint
 /dist
 /node_modules
+dist

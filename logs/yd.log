@@ -1,1 +1,135 @@
 [2019-03-08T08:53:11.463] [ERROR] cheese - { code: 1, message: 'node-fetch和后端通讯异常', data: [] }
+[2019-03-12T00:06:46.775] [ERROR] cheese - { code: 1, message: 'node-fetch和后端通讯异常', data: [] }
+[2019-03-12T08:36:05.305] [ERROR] cheese - { code: 1, message: 'node-fetch和后端通讯异常', data: [] }
+[2019-03-12T08:36:05.335] [ERROR] cheese - { code: 1, message: 'node-fetch和后端通讯异常', data: [] }
+[2019-03-12T08:55:37.293] [ERROR] cheese - { code: 1, message: 'node-fetch和后端通讯异常', data: [] }
+[2019-03-12T08:55:37.327] [ERROR] cheese - { code: 1, message: 'node-fetch和后端通讯异常', data: [] }
+[2019-03-12T08:55:39.428] [ERROR] cheese - { code: 1, message: 'node-fetch和后端通讯异常', data: [] }
+[2019-03-12T08:55:39.526] [ERROR] cheese - { code: 1, message: 'node-fetch和后端通讯异常', data: [] }
+[2019-03-12T09:07:03.981] [ERROR] cheese - { code: 1, message: 'node-fetch和后端通讯异常', data: [] }
+[2019-03-12T09:07:04.003] [ERROR] cheese - { code: 1, message: 'node-fetch和后端通讯异常', data: [] }
+[2019-03-12T09:07:08.268] [ERROR] cheese - { code: 1, message: 'node-fetch和后端通讯异常', data: [] }
+[2019-03-12T09:07:08.292] [ERROR] cheese - { code: 1, message: 'node-fetch和后端通讯异常', data: [] }
+[2019-03-12T09:07:18.733] [ERROR] cheese - { code: 1, message: 'node-fetch和后端通讯异常', data: [] }
+[2019-03-12T09:07:18.761] [ERROR] cheese - { code: 1, message: 'node-fetch和后端通讯异常', data: [] }
+[2019-03-12T09:07:39.614] [ERROR] cheese - { code: 1, message: 'node-fetch和后端通讯异常', data: [] }
+[2019-03-12T09:07:59.876] [ERROR] cheese - { code: 1, message: 'node-fetch和后端通讯异常', data: [] }
+[2019-03-12T09:07:59.898] [ERROR] cheese - { code: 1, message: 'node-fetch和后端通讯异常', data: [] }
+[2019-03-12T09:11:46.004] [ERROR] cheese - { code: 1, message: 'node-fetch和后端通讯异常', data: [] }
+[2019-03-12T09:11:55.205] [ERROR] cheese - { code: 1, message: 'node-fetch和后端通讯异常', data: [] }
+[2019-03-14T01:47:03.129] [ERROR] cheese - AwilixResolutionError: Could not resolve 'getTest'.
+
+Resolution path: getTest
+    at resolve (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/node_modules/awilix/lib/container.js:232:23)
+    at Object.get (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/node_modules/awilix/lib/container.js:63:32)
+    at IndexController.actionIndex (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/dist/controllers/IndexController.js:37:45)
+    at <anonymous>
+[2019-03-14T01:47:04.779] [ERROR] cheese - AwilixResolutionError: Could not resolve 'getTest'.
+
+Resolution path: getTest
+    at resolve (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/node_modules/awilix/lib/container.js:232:23)
+    at Object.get (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/node_modules/awilix/lib/container.js:63:32)
+    at IndexController.actionIndex (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/dist/controllers/IndexController.js:37:45)
+    at <anonymous>
+[2019-03-14T01:47:05.239] [ERROR] cheese - AwilixResolutionError: Could not resolve 'getTest'.
+
+Resolution path: getTest
+    at resolve (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/node_modules/awilix/lib/container.js:232:23)
+    at Object.get (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/node_modules/awilix/lib/container.js:63:32)
+    at IndexController.actionIndex (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/dist/controllers/IndexController.js:37:45)
+    at <anonymous>
+[2019-03-14T01:47:05.700] [ERROR] cheese - AwilixResolutionError: Could not resolve 'getTest'.
+
+Resolution path: getTest
+    at resolve (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/node_modules/awilix/lib/container.js:232:23)
+    at Object.get (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/node_modules/awilix/lib/container.js:63:32)
+    at IndexController.actionIndex (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/dist/controllers/IndexController.js:37:45)
+    at <anonymous>
+[2019-03-14T01:47:06.158] [ERROR] cheese - AwilixResolutionError: Could not resolve 'getTest'.
+
+Resolution path: getTest
+    at resolve (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/node_modules/awilix/lib/container.js:232:23)
+    at Object.get (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/node_modules/awilix/lib/container.js:63:32)
+    at IndexController.actionIndex (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/dist/controllers/IndexController.js:37:45)
+    at <anonymous>
+[2019-03-14T01:47:17.291] [ERROR] cheese - AwilixResolutionError: Could not resolve 'getTest'.
+
+Resolution path: getTest
+    at resolve (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/node_modules/awilix/lib/container.js:232:23)
+    at Object.get (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/node_modules/awilix/lib/container.js:63:32)
+    at IndexController.actionIndex (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/dist/controllers/IndexController.js:37:45)
+    at <anonymous>
+[2019-03-14T01:47:33.841] [ERROR] cheese - AwilixResolutionError: Could not resolve 'getTest'.
+
+Resolution path: getTest
+    at resolve (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/node_modules/awilix/lib/container.js:232:23)
+    at Object.get (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/node_modules/awilix/lib/container.js:63:32)
+    at IndexController.actionIndex (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/dist/controllers/IndexController.js:37:45)
+    at <anonymous>
+[2019-03-14T01:47:41.294] [ERROR] cheese - AwilixResolutionError: Could not resolve 'getTest'.
+
+Resolution path: getTest
+    at resolve (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/node_modules/awilix/lib/container.js:232:23)
+    at Object.get (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/node_modules/awilix/lib/container.js:63:32)
+    at IndexController.actionIndex (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/dist/controllers/IndexController.js:37:45)
+    at <anonymous>
+[2019-03-14T01:47:53.374] [ERROR] cheese - AwilixResolutionError: Could not resolve 'getTest'.
+
+Resolution path: getTest
+    at resolve (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/node_modules/awilix/lib/container.js:232:23)
+    at Object.get (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/node_modules/awilix/lib/container.js:63:32)
+    at IndexController.actionIndex (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/dist/controllers/IndexController.js:37:45)
+    at <anonymous>
+[2019-03-14T01:48:04.130] [ERROR] cheese - AwilixResolutionError: Could not resolve 'getTest'.
+
+Resolution path: getTest
+    at resolve (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/node_modules/awilix/lib/container.js:232:23)
+    at Object.get (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/node_modules/awilix/lib/container.js:63:32)
+    at IndexController.actionIndex (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/dist/controllers/IndexController.js:37:45)
+    at <anonymous>
+[2019-03-14T01:48:04.833] [ERROR] cheese - AwilixResolutionError: Could not resolve 'getTest'.
+
+Resolution path: getTest
+    at resolve (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/node_modules/awilix/lib/container.js:232:23)
+    at Object.get (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/node_modules/awilix/lib/container.js:63:32)
+    at IndexController.actionIndex (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/dist/controllers/IndexController.js:37:45)
+    at <anonymous>
+[2019-03-14T01:48:12.565] [ERROR] cheese - AwilixResolutionError: Could not resolve 'getTest'.
+
+Resolution path: getTest
+    at resolve (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/node_modules/awilix/lib/container.js:232:23)
+    at Object.get (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/node_modules/awilix/lib/container.js:63:32)
+    at IndexController.actionIndex (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/dist/controllers/IndexController.js:37:45)
+    at <anonymous>
+[2019-03-14T01:50:01.986] [ERROR] cheese - ReferenceError: getTest is not defined
+    at IndexController.actionIndex (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/dist/controllers/IndexController.js:40:32)
+    at <anonymous>
+[2019-03-14T01:50:02.566] [ERROR] cheese - ReferenceError: getTest is not defined
+    at IndexController.actionIndex (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/dist/controllers/IndexController.js:40:32)
+    at <anonymous>
+[2019-03-14T01:52:48.654] [ERROR] cheese - ReferenceError: getTest is not defined
+    at IndexController.actionIndex (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/dist/controllers/IndexController.js:41:32)
+    at <anonymous>
+[2019-03-14T01:54:17.010] [ERROR] cheese - ReferenceError: getTest is not defined
+    at IndexController.actionIndex (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/dist/controllers/IndexController.js:40:32)
+    at <anonymous>
+[2019-03-14T01:54:17.604] [ERROR] cheese - ReferenceError: getTest is not defined
+    at IndexController.actionIndex (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/dist/controllers/IndexController.js:40:32)
+    at <anonymous>
+[2019-03-14T01:54:18.073] [ERROR] cheese - ReferenceError: getTest is not defined
+    at IndexController.actionIndex (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/dist/controllers/IndexController.js:40:32)
+    at <anonymous>
+[2019-03-14T01:55:19.274] [ERROR] cheese - AwilixResolutionError: Could not resolve 'getTest'.
+
+Resolution path: getTest
+    at resolve (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/node_modules/awilix/lib/container.js:232:23)
+    at Object.get (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/node_modules/awilix/lib/container.js:63:32)
+    at IndexController.actionIndex (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/dist/controllers/IndexController.js:37:45)
+    at <anonymous>
+[2019-03-14T01:56:43.035] [ERROR] cheese - AwilixResolutionError: Could not resolve 'getTest'.
+
+Resolution path: getTest
+    at resolve (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/node_modules/awilix/lib/container.js:232:23)
+    at Object.get (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/node_modules/awilix/lib/container.js:63:32)
+    at IndexController.actionIndex (/Users/lihuiwen/Desktop/一灯_十三/第二趴/books/dist/controllers/IndexController.js:37:45)
+    at <anonymous>

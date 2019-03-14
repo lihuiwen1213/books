@@ -1,16 +1,42 @@
-<div class="list">
+<div class="list" id="js-books-data">
     <table class="table table-bordered table-striped">
         <tr>
             <th>编号</th>
             <th>书名</th>
             <th>作者</th>
         </tr>
-        {% for item in data%}
+        <!-- {% for item in data%}
         <tr>
             <td>[[item.id]]</td>
             <td>[[item.name]]</td>
             <td>[[item.author]]</td>
         </tr>
-        {% endfor %}
+        {% endfor %} -->
     </table>
+    <a href="http://www.taobao.com">taobao</a>
+    <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+    <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+    <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+    <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+    <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+    <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+    <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+    <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+    <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+    <a href="http://www.baidu.com">baidu</a>
+    <script>
+        if (!window.observer) {
+            window.observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if(entry.isIntersecting){
+                        const link = entry.target;
+                        console.log(link);
+                    }
+                })
+            })
+            Array.from(document.querySelectorAll('a'), link => {
+                observer.observe(link)
+            })
+        }
+    </script>
 </div>
